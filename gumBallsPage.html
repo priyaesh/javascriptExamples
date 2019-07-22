@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GumBalls</title>
+</head>
+<body>
+    <script>
+        function getGumBalls(numGumBalls){
+            var machineName = "Best Gumball Machine";
+
+            while(numGumBalls > 0){
+                var message = " There are "+ numGumBalls + "left in the "
+                 +machineName;
+                console.log(message);
+                var result = prompt("Get a gumball?");
+                    if(result != null){
+                        numGumBalls = numGumBalls -1;
+                    }
+                    else{
+                        break;
+                    }
+                    
+                }
+                return numGumBalls;
+                var string ="abc";
+                var vowels = [a,e,i,o,u];
+
+    var string ="abc";
+    var count ;
+    for(var i=0;i<string.length;i++){
+        var char = string.charAt(i);
+         if((char=='a')||(char=='o')||(char=='i')||(char=='u')||(char=='e')){
+                console.log("count is ",count+1);
+             }
+     console.log(count);
+                 
+        }
+    }
+
+     var string = "abc";
+     string.split(a);
+     console.log(string);
+
+ // var count ;
+ // const withoutVowels = string.filter(vowels =>  )
+
+        console.log(message);
+        var numGumballsLeft = getGumBalls(10);
+        console.log("Done getting gumballs; there are" +numGumballsLeft +"left");
+    </script>
+
+</body>
+</html>

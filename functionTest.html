@@ -1,0 +1,38 @@
+
+<html lang="en">
+    <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Function Test</title>
+                
+    </head>
+        <body>
+            <h1> Hello Function</h1>
+            <p id="output"></p>
+                <script>
+                    //happyBirthday();
+                    
+                    var firstName = "Hemapriya";
+                    var lastName = "sampath";
+                    var age = 34;
+                        // function happyBirthday(){
+                        //     age = age+1;
+                        //     console.log("Happy birthday" + firstName  +""+lastName ,"you are going to be" +""+age);
+
+                        // }
+                        // happyBirthday();
+                        happyBirthdayLocal(firstName,lastName,age);
+                        function happyBirthdayLocal(first,last,a){
+                            age = a+1;
+                            message = "Happy birthday" +" " + firstName  +" "+lastName +" "+"you are going to be" +" "+a;
+                            console.log(message);
+                        }
+                       
+                </script>
+                <script src="scope.js"></script>
+                <script>
+                    happyBirthdayLocal(firstName,lastName,age);
+                </script>        
+        </body>
+</html>
