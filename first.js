@@ -1,12 +1,5 @@
 
-var http = require('http');
-var fs = require('fs');
-var index = fs.readFileSync('./index.html');
+var m1 = require('./m1.js');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(index);
-}).listen(8080);
-console.log("Hello");
-//alert("Hello");
+console.log("m1",m1);
 
